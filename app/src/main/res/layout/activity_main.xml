@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_background"
+    tools:context="com.teamandroidangel.iamangelauditor.uquiz.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+        <ImageView
+            android:src="@drawable/logo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/QuestionsTheme"
+            android:id="@+id/question1"
+            android:text="@string/who_created_the_design_for_the_philippines_national_flag" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/choice_a_question_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emilio_aguinaldo" />
+            <RadioButton
+                android:id="@+id/choice_b_question_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apolinario_mabini" />
+            <RadioButton
+                android:id="@+id/choice_c_question_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/julian_felipe" />
+        </RadioGroup>
+        <TextView
+            style="@style/QuestionsTheme"
+            android:id="@+id/question2"
+            android:text="@string/who_is_generally_acknowledged_as_he_president_of_the_philippines" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/choice_a_question_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emilio_aguinaldo" />
+            <RadioButton
+                android:id="@+id/choice_b_question_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/andres_bonifacio" />
+        </RadioGroup>
+        <TextView
+            style="@style/QuestionsTheme"
+            android:id="@+id/question3"
+            android:text="@string/world_s_famous_boxer_and_also_known_pac_man"
+            />
+        <EditText
+            android:id="@+id/answer_question_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+        <TextView
+            style="@style/QuestionsTheme"
+            android:id="@+id/question4"
+            android:text="@string/who_are_some_of_the_presidents_of_the_philippines"
+             />
+        <CheckBox
+            android:id="@+id/choice_a_question_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ferdinand_marcos" />
+        <CheckBox
+            android:id="@+id/choice_b_question_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rodrigo_duterte" />
+        <CheckBox
+            android:id="@+id/choice_d_question_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mirriam_defensor" />
+        <TextView
+            style="@style/QuestionsTheme"
+            android:id="@+id/question5"
+            android:text="@string/philippines_national_bird"/>
+        <EditText
+            android:id="@+id/answer_question_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+        <TextView
+            style="@style/QuestionsTheme"
+            android:id="@+id/question6"
+            android:text="@string/what_is_the_name_of_the_filipino_armed_contigent_that_helped_the_americans_capture_aguinaldo"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/choice_a_question_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/macabebe_scouts" />
+            <RadioButton
+                android:id="@+id/choice_b_question_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/abu_sayyaf" />
+            <RadioButton
+                android:id="@+id/choice_c_question_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/balangiga_rangers" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/submitAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="submitAnswer"
+            android:textAlignment="center"
+            android:background="#64DD17"
+            android:gravity="center_vertical"
+            android:text="@string/submit" />
+    </LinearLayout>
+</ScrollView>

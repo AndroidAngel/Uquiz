@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">UQuiz</string>
+    <string name="ferdinand_marcos">Ferdinand Marcos</string>
+    <string name="who_created_the_design_for_the_philippines_national_flag">Who created the design for the Philippines National Flag?</string>
+    <string name="emilio_aguinaldo">Emilio Aguinaldo</string>
+    <string name="apolinario_mabini">Apolinario Mabini</string>
+    <string name="julian_felipe">Julian Felipe</string>
+    <string name="andres_bonifacio">Andres Bonifacio</string>
+    <string name="world_s_famous_boxer_and_also_known_pac_man">World\'s Famous boxer and also known \'Pac Man\'.</string>
+    <string name="who_are_some_of_the_presidents_of_the_philippines">Who are some of the Presidents of the Philippines?</string>
+    <string name="rodrigo_duterte">Rodrigo Duterte</string>
+    <string name="ramon_magsaysay">Ramon Magsaysay</string>
+    <string name="submit">Submit</string>
+    <string name="what_is_the_name_of_the_filipino_armed_contigent_that_helped_the_americans_capture_aguinaldo">What is the name of the Filipino armed contigent that helped the Americans capture Aguinaldo?</string>
+    <string name="macabebe_scouts">Macabebe Scouts</string>
+    <string name="abu_sayyaf">Abu Sayyaf</string>
+    <string name="balangiga_rangers">Balangiga Rangers</string>
+    <string name="who_is_generally_acknowledged_as_he_president_of_the_philippines">Who is generally acknowledged as he President of the Philippines?</string>
+    <string name="mirriam_defensor">Mirriam Defensor</string>
+    <string name="philippines_national_bird">Philippines National bird</string>
+</resources>
